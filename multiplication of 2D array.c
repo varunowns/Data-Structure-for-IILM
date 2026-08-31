@@ -20,8 +20,9 @@ int main() {
 
     printf("Product of matrices:\n");
     for (i = 0; i < rows; i++) {
-        for (j = 0; j < cols; j++)
+        for (j = 0; j < cols; j++){
             printf("%d ", a[i][j] * b[i][j]);
+        }
         printf("\n");
     }
 
